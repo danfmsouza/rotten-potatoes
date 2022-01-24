@@ -15,4 +15,3 @@ jobs:
     password: ${{ secrets.DOCKERHUB_PWD }}
     ecr: # optional, default is auto
     logout: # optional, default is true
-
