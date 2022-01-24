@@ -25,7 +25,7 @@ jobs:
             danfmsouza/rotten-potatos:latest
             danfmsouza/rotten-potatos:v${{ github.run_number }}
   CD:
-    runs-in ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Kubernetes Set Context
